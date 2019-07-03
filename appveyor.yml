@@ -1,6 +1,6 @@
 version: 1.0.{build}
 image: Visual Studio 2017
 build_script:
-  - python --version
+  - python3 --version
   - C:/Python37/python.exe --version
-  - C:/Python37/Scripts/pip.exe install pytest
+  - C:/Python37/Scripts/pip.exe install pyinstaller
