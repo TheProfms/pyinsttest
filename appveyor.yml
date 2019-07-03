@@ -4,6 +4,7 @@ build_script:
   - set PATH=C:/Python37;%PATH%
   - python --version
   - python -m pip install pyinstaller
-  - python -m pyinstaller
+  - pyinstaller --version
+  - pyinstaller program.py
   - dir
   - dir dist
