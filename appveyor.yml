@@ -1,9 +1,9 @@
 version: 1.0.{build}
 image: Visual Studio 2017
 build_script:
-  - echo %PATH%
   - set PATH=C:/Python37;%PATH%
-  - echo %PATH%
   - python --version
-  - C:/Python37/python.exe --version
-  - C:/Python37/Scripts/pip.exe install pyinstaller
+  - python -m pip install pyinstaller
+  - python -m pyinstaller
+  - dir
+  - dir dist
