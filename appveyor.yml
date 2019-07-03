@@ -5,6 +5,6 @@ build_script:
   - python --version
   - python -m pip install pyinstaller
   - pyinstaller --version
-  - pyinstaller program.py
+  - pyinstaller --onefile program.py
 artifacts:
   - path: dist
